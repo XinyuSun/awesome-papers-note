@@ -2,7 +2,11 @@
 
 ### Barlow Twins: Self-Supervised Learning via Redundancy Reduction
 Jure Zbontar, Li Jing, Ishan Misra, Yann LeCun
-![](resources/002.png)
+
+<div align="center">
+<img src=resources/002.png width=100% />
+</div>
+
 - Making the __cross-correlation matrix__ between the output features of two identical networks as close to the identity matrix.
 - Minimizing the __redundancy__ between the components of the output vectors.
 - Does not require tricks used in recent CLR methods such as stopping gradient, momentem encoder or predictor network.
@@ -14,7 +18,9 @@ Adrien Bardes, Jean Ponce, Yann LeCun
 - __Variance__: maintain the distinct of each embedding in a batch.
 - __Covariance__: decorrelating the variables between pairs of embedding variables.
 
-![](resources/001.png)
+<div align="center">
+<img src=resources/001.png width=100% />
+</div>
 
 ### Understanding Dimensional Collapse in Contrastive Self-Supervised Learning
 - Instead of complete collapse, contrastive methods still experience a __dimensional collapse__.
