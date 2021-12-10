@@ -6,6 +6,7 @@
 <div align="center">
 <img src=../resources/004.png width=50% />
 </div>
+
 如果能够从这些数据中找到一个合适的新坐标系$x'o'y'$，同时尽量使得数据点分布在新坐标系的某个坐标轴上，就可以用这个坐标轴来表征原来的数据，从而实现数据的降维。
 此时，原来的二维数据点$D=\left[\begin{matrix}x_1&x_2&x_3&x_4\\y_1&y_2&y_3&y_4\end{matrix}\right]$可以用新的一维标量表示$D'=[x_1'\ x_2'\ x_3'\ x_4']$
 
