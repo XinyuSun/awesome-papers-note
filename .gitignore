@@ -1,1 +1,4 @@
 .vscode
+*.pdf
+~$*.pptx
+.DS_Store
